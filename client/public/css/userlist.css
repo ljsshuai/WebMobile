@@ -1,0 +1,70 @@
+.bgcolor{
+    background: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.user_main
+{
+    background: white;
+    font-size: 13px;
+}
+.list_one
+{
+    width: 100%;/*框框的宽度*/
+    height: 30px;/*框框的长度*/
+    line-height: 30px;
+    padding: 0px;/*将框框的padding设置为零，不然会导致框框里的内容与框边缘有间隔*/
+    margin: 0 auto;
+    text-align: center;
+}
+.list_one li
+{
+    text-align: center;
+    list-style-type: none; /* 去掉li前的点 */
+    float: left; /*将li设置成做浮动，变为联动*/
+    /*margin-left: 7%;*/
+    width: 33.333%;
+}
+.user_main_nav
+{
+    background: white;
+    font-size: 13px;
+}
+.nav_list
+{
+    background: #87cff7;
+    width: 100%;/*框框的宽度*/
+    height: 38px;/*框框的长度*/
+    line-height: 38px;
+    padding: 0px;/*将框框的padding设置为零，不然会导致框框里的内容与框边缘有间隔*/
+    margin: 0 auto;
+    text-align: center;
+}
+.nav_list li
+{
+    text-align: center;
+    list-style-type: none; /* 去掉li前的点 */
+    float: left; /*将li设置成做浮动，变为联动*/
+    /*margin-left: 7%;*/
+    width: 33.333%;
+}
+.nav_list_main
+{
+    background: white;
+    width: 100%;/*框框的宽度*/
+    height: 75px;/*框框的长度*/
+    line-height: 35px;
+    padding: 0px;/*将框框的padding设置为零，不然会导致框框里的内容与框边缘有间隔*/
+    margin: 0 auto;
+    text-align: center;
+}
+.nav_list_main li
+{
+    text-align: center;
+    list-style-type: none; /* 去掉li前的点 */
+    float: left; /*将li设置成做浮动，变为联动*/
+    /*margin-left: 7%;*/
+}
+div:last-child{
+    border-right:0;
+}
